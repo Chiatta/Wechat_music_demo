@@ -3,8 +3,19 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {}
+    pageNames:[{
+      id: 'animation',
+      name: '动画'
+    },{
+      id:'run',
+      name: '跑步'
+    },{
+      id: 'music',
+      name: '音乐'
+    },{
+      id: 'picture',
+      name: '影音'
+    }]
   },
   //事件处理函数
   bindViewTap: function() {

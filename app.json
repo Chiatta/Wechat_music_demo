@@ -5,8 +5,20 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#FFDEA8",
+    "navigationBarTitleText": "Running Man",
     "navigationBarTextStyle":"black"
-  }
+  },
+  "tabBar":{
+    "list":[{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    }],
+    "color": "#ad8888",
+    "backgroundColor": "#fdfdae"
+  },
+  "debug": true
 }

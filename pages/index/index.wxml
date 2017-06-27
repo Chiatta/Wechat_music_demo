@@ -1,10 +1,16 @@
 <!--index.wxml-->
-<view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+<view class="index">
+  <view class="header">
+    <view class="bigTitle">Fucking Running</view>
+    <view class="titleCont">The First Program of WSY</view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="buttons">
+    <view class="button">
+      <block wx:for="{{pageNames}}">
+        <view class="button-item">
+          <navigator url="{{item.id}}/{{item.id}}">{{item.name}}</navigator>
+        </view>
+      </block>
+    </view>
   </view>
 </view>

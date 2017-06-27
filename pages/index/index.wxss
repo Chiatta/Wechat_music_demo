@@ -1,21 +1,37 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+.index{
+  background-color: #eeefaf;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
+  /*让所有弹性盒模型对象的子元素都有相同的长度，忽略它们内部的内容*/
+  flex: 1;
 
-.userinfo-nickname {
-  color: #aaa;
+  min-height: 100%;
+  font-size: 32rpx;
 }
-
-.usermotto {
-  margin-top: 200px;
+.header{
+  padding-top:50rpx;
+}
+.bigTitle{
+  font-size: 60rpx;
+  color: #556b2f;
+  text-align: center;
+}
+.titleCont{
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  text-align: center;
+}
+.buttons{
+  margin-top: 30rpx;
+  padding-bottom: 60rpx;
+}
+.button-item{
+  margin: 20rpx auto;
+  width: 80%;
+  text-align: center;
+  background-color: #611212;
+  color: #ccc;
+  font-size: 30rpx;
+  padding: 5rpx 0;
 }
