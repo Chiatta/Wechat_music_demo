@@ -8,9 +8,14 @@
     <view class="button">
       <block wx:for="{{pageNames}}">
         <view class="button-item">
-          <navigator url="{{item.id}}/{{item.id}}">{{item.name}}</navigator>
+          <navigator url="/pages/{{item.id}}/{{item.id}}">{{item.name}}</navigator>
         </view>
       </block>
     </view>
   </view>
 </view>
+<scroll-view scroll-y="true" style="height:630rpx;">
+  <image src="/res/run0.png" mode="aspectFill" class="pic"></image>
+  <image src="/res/run1.png" mode="aspectFill" class="pic"></image>
+  <image src="/res/run2.png" mode="aspectFill" class="pic"></image>
+</scroll-view>

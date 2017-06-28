@@ -4,5 +4,11 @@
   padding: 40rpx;
 }
 .log-item {
-  margin: 10rpx;
+  margin: 3rpx 0;
+  width: 100%;
+  text-align: center;
+  padding:7rpx 0;
+}
+.log-item:nth-child(odd){
+  background-color: #FFE5C1;
 }

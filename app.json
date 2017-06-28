@@ -1,22 +1,29 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/animation/animation",
+    "pages/run/run",
+    "pages/music/music",
+    "pages/picture/picture"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FFDEA8",
     "navigationBarTitleText": "Running Man",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
-  "tabBar":{
-    "list":[{
-      "pagePath": "pages/index/index",
-      "text": "首页"
-    },{
-      "pagePath": "pages/logs/logs",
-      "text": "日志"
-    }],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ],
     "color": "#ad8888",
     "backgroundColor": "#fdfdae"
   },

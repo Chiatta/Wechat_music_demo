@@ -1,0 +1,30 @@
+<!--animation.wxml-->
+<view class="video">
+  <view class="video-title">
+    {{video.name}}
+  </view>
+  <video src="{{video.url}}" id="videoPlay" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    <view class="btn-area">
+      <input bindblur="bindInputBlur" class="danmu-input" placeholder="点击输入弹幕"/>
+      <button bindtap="bindSendDanmu" class="danmu-btn">发送</button>
+    </view>
+    <view>
+      <button class="btn-pre btn-nex-pre" bindtap="getPreVideo">上一个视频</button>
+      <button class="btn-nex btn-nex-pre" bindtap="getNexVideo">下一个视频</button>
+    </view>
+  </view>
+<view class="animation">
+  <view class="box-container">
+    <view class="box" animation="{{animation}}"></view>
+  </view>
+  <view class="btn-container">
+    <button class="animate-btn" bindtap="rotate">Rotate</button>
+    <button class="animate-btn" bindtap="skew">Skew</button>
+    <button class="animate-btn" bindtap="scale">Scale</button>
+    <button class="animate-btn" bindtap="translate">Translate</button>
+    <button class="animate-btn" bindtap="rotateAndScale">Rotate && Scale</button>
+    <button class="animate-btn" bindtap="rotateThenScale">Rotate -- Scale</button>
+    <button class="animate-btn" bindtap="all">All</button>
+    <button class="animate-btn" bindtap="reset">Reset</button>
+  </view>
+</view>

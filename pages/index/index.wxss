@@ -35,3 +35,7 @@
   font-size: 30rpx;
   padding: 5rpx 0;
 }
+.pic{
+  height:630rpx;
+  width:100%;
+}
