@@ -1,1 +1,5 @@
 /* run.wxss */
+.map-view{
+  width: 100%;
+  height: 800rpx;
+}
